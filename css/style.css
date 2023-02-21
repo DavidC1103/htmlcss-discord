@@ -22,7 +22,7 @@ header{
   background-color: #255EE9;
 }
 
-p{
+.text{
   font-size: 21px;
   font-weight: 550;
   line-height: 2rem;
@@ -150,10 +150,10 @@ section.container .img1{
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 190px;
-  width: 100%;
-  
+  padding: 190px;  
 }
 
-
+.bottom-img{
+  width: 100%;
+}
 
