@@ -22,10 +22,15 @@ header{
   background-color: #255EE9;
 }
 
-
+p{
+  font-size: 20px;
+  font-weight: 500;
+}
 
 a{
- text-decoration: none;
+  text-decoration: none;
+  color: black;
+
 }
 
 header .container{
@@ -52,20 +57,20 @@ nav ul li{
   color: black;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 
 .jumbotron{
-    background-size: cover;
-    background-image: url(../img/jumbo.png);
-    display: flex;
-    justify-content: space-around;
-    height: 620px;
-    color: white; 
+  background-size: cover;
+  background-image: url(../img/jumbo.png);
+  display: flex;
+  justify-content: space-around;
+  height: 620px;
+  color: white; 
 }
 
 .jumbotron .text-jumbo{
-  align-items: center;
   width: 40%;
   line-height: 2rem;
   text-align: center;
@@ -77,11 +82,24 @@ div.text-jumbo h1{
   font-size: 55px;
 }
 
-{
-background-color: white;
-border-radius: 40px;
-padding:  12px 16px;
-color: black;
-font-size: 16px;
-font-weight: 600;
+.jumbotron .button-jumbo{
+  font-size: 25px;
+  margin-top: 60px;
+  cursor: pointer;
+
+}
+.jumbotron .downloadmac{
+  padding: 16px 32px;
+  border-radius: 28px;
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+}
+
+
+.jumbotron .browserdiscord{
+  border-radius: 28px;
+  padding: 16px 32px;
+  background-color: #36393F;
+  color: white;
 }
